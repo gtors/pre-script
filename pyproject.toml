@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pre-script"
+version = "0.1.0"
+description = "Util for executing a custom script before running any python application without modifying the last one"
+authors = ["Andrey Torsunov <andrey.torsunov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gtors/pre-script"
+repository = "https://github.com/gtors/pre-script"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+]
+include = ["pre_script.pth"]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/gtors/pre-script/releases"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
