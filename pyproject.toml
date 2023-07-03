@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pre-script"
-version = "0.1.1"
+version = "0.1.2"
 description = "Util for executing a custom script before running any python application without modifying the last one"
 authors = ["Andrey Torsunov <andrey.torsunov@gmail.com>"]
 license = "MIT"
