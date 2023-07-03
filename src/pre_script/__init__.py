@@ -1,7 +1,7 @@
 import os
 import sys
 import pathlib
-import importlib
+import importlib.machinery
 
 
 DEFAULT_PRE_SCRIPT_FILE = ".pre-script.py"
